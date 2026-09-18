@@ -10,6 +10,7 @@ Amazon CloudWatch and generates alerts when resource usage crosses
 defined thresholds.
 
 ## Architecture
+```
 
 GitHub
    ↓
@@ -30,7 +31,7 @@ CloudWatch Agent
          SNS
           ↓
       Email Alert
-
+```
 ## Technologies
 
 - AWS EC2
